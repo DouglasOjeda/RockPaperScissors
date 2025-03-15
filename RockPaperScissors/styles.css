@@ -1,0 +1,29 @@
+* {
+    background: #EAE0C8;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.display-board {
+    background: #417B76;
+    min-width: 400px;
+    min-height: 150px;
+    align-self: center;
+}
+.item-container {
+    align-items: center;
+    background: blue;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    min-width: 400px;
+    min-height: 200px;
+}
+.item-container img {
+    height: 150px;
+    margin: 0;
+    width: auto;
+}
