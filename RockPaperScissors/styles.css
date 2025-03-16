@@ -1,20 +1,21 @@
-* {
-    background: #EAE0C8;
-}
 body {
+    background: #EAE0C8;
     display: flex;
     flex-direction: column;
     margin: 0;
 }
 .display-board {
-    background: #417B76;
     min-width: 400px;
     min-height: 150px;
     align-self: center;
 }
+.para {
+    font-size: 24px;
+    text-align: center;
+    color: #417B76;
+}
 .item-container {
     align-items: center;
-    background: blue;
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -23,6 +24,7 @@ body {
     min-height: 200px;
 }
 .item-container img {
+    cursor: pointer;
     height: 150px;
     margin: 0;
     width: auto;
